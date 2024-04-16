@@ -1,21 +1,29 @@
+:root{
+    --bbgcolour:#BCC3B7
+}
 body{
-    background-color: rgb(188, 195, 183); 
+    background-color:var(--bbgcolour); 
   }
+
+  .fa-github{
+    font-size: 2rem !important;
+  }
+
   .navbar {
        height: 70px;
        line-height: 70px;
-       background-color: rgb(64, 84, 93);
+       background-color: #40545D;
   }
   .navbar-brand {
        font-size: 20px;
        color: white;
   }
   .bg-dark {
-       background-color: rgb(53, 53, 53) !important;
+       background-color:#353535 !important;
   }
  
  .form-control{
-     background-color: rgb(53, 53, 53) !important;
+     background-color: #353535 !important;
      
  }
  ::placeholder {
